@@ -21,4 +21,13 @@
   transform: rotate(45deg) skew(10deg, 10deg);
 }
 
+.button-left::before {
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 5px solid transparent;
+  border-right: 10px solid black;
+  border-bottom: 5px solid transparent;
+}
+
 /*# sourceMappingURL=style.css.map */

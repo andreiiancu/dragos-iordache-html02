@@ -34,3 +34,21 @@
   @include size(10px, 10px);
   @include shape('rhombus');
 }
+
+@mixin bnt-dir($direction: 'left') {
+  width: 0;
+  height: 0;
+  content: '';
+
+  @if $direction == 'left' {
+    border-top: 5px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 5px solid transparent;
+  }
+}
+
+.button-left {
+  &::before {
+    @include bnt-dir('left');
+  }
+}
