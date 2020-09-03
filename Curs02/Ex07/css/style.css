@@ -10,49 +10,44 @@
   border: 1px solid #000;
 }
 
-.box-1 {
+.box-01 {
   border-width: 1px;
 }
 
-.box-2 {
+.box-02 {
   border-width: 2px;
 }
 
-.box-3 {
+.box-03 {
   border-width: 3px;
 }
 
-.box-4 {
+.box-04 {
   border-width: 4px;
 }
 
-.box-5 {
+.box-05 {
   border-width: 5px;
 }
 
-.box-01 {
-  width: 155px;
-  height: 155px;
+.box-06 {
+  border-width: 6px;
 }
 
-.box-02 {
-  width: 160px;
-  height: 160px;
+.box-07 {
+  border-width: 7px;
 }
 
-.box-03 {
-  width: 165px;
-  height: 165px;
+.box-08 {
+  border-width: 8px;
 }
 
-.box-04 {
-  width: 170px;
-  height: 170px;
+.box-09 {
+  border-width: 9px;
 }
 
-.box-05 {
-  width: 175px;
-  height: 175px;
+.box-10 {
+  border-width: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,3 +4,20 @@
   margin: 16px 0;
 }
 
+// Genereaza clase de forma btn-primary
+// (btn-secondary, etc…) pentru a putea
+// seta proprietatea color pentru elementele
+// din primul rand, dupa urmatorele valori
+$colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $suffix, $color in $colors {
+  .btn-#{$suffix} {
+    color: $color;
+  }
+}

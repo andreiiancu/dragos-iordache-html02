@@ -20,3 +20,17 @@
     border-width: #{$i}px;
   }
 }
+
+// In mod similar folosind to, genereaza
+// clase de forma box-01 (box-02)
+// pentru celelalte 5 element cu clasa
+// .box din document. La fiecare iteratie,
+// inaltimea si latimea lor trebuie sa
+// creasca cu 5 pixeli.
+@for $i from 1 to 6 {
+  .box-0#{$i} {
+    $width: 150px + ($i * 5);
+    width: $width;
+    height: $width;
+  }
+}
