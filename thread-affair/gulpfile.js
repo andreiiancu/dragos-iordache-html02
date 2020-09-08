@@ -81,7 +81,12 @@ gulp.task('connect', function (done) {
 });
 
 gulp.task('fonts', function () {
-  return gulp.src(['./fonts/**/*']).pipe(gulp.dest('./dist/fonts'));
+  return gulp
+    .src([
+      './node_modules/@fortawesome/fontawesome-free/webfonts/**/*',
+      './fonts/**/*',
+    ])
+    .pipe(gulp.dest('./dist/fonts'));
 });
 
 gulp.task('open', function () {
