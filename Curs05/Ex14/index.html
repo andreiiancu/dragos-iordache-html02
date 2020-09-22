@@ -32,7 +32,7 @@
       </div>
 
       <section class="row">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div class="input-group mb-2">
             <div class="input-group-prepend">
               <label
@@ -51,6 +51,8 @@
               required
               placeholder="Numele Retetei*"
             >
+
+            <button class="btn btn-info">Save</button>
           </div>
           <!-- input-group  -->
 
@@ -99,7 +101,7 @@
           <!-- input-group  -->
         </div>
 
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div class="form-group mb-2">
             <label for="recipe-image">Imagine Principala:*</label>
             <input
@@ -133,6 +135,41 @@
         </div>
       </section>
       <!-- recipe-info  -->
+
+      <div class="row">
+        <div class="col">
+          <h2>Autor (optional)</h2>
+        </div>
+      </div>
+
+      <section class="row">
+        <div class="col-12 col-md-6">
+          <div class="custom-control custom-switch text-md-right">
+            <input
+              type="checkbox"
+              name="author-toggle"
+              id="author-toggle"
+              class="custom-control-input"
+            >
+
+            <label
+              for="author-toggle"
+              class="custom-control-label btn p-0"
+            >Adauga Autor</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-12 col-md-6">
+
+        </div>
+
+        <div class="col-12 col-md-6">
+          right
+        </div>
+      </section>
+      <!-- recipe-author  -->
     </form>
   </main>
   <!-- container-main  -->
