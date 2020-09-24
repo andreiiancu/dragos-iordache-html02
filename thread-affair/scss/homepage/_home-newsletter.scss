@@ -28,7 +28,22 @@
       color: $white;
       padding-bottom: 5px;
       border-bottom: 1px solid $white;
-      margin: 0 auto 20px auto;
+      margin: 0 auto 35px auto;
+    }
+  }
+
+  button {
+    &[type='submit'] {
+      border: 0;
+      background-color: transparent;
+      font-size: 19px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: $white;
+      background: url('/img/icons/mail-send.png') no-repeat center right;
+      height: 59px;
+      display: inline-block;
+      padding-right: 130px;
     }
   }
 }
