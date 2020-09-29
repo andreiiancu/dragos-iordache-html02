@@ -3,6 +3,11 @@
   position: relative;
 
   .logo {
+    @include media-breakpoint-up('md') {
+      width: 150px;
+      margin-top: 0;
+    }
+
     width: 87px;
     margin: -68px auto 0 auto;
     display: block;
