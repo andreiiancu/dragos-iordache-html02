@@ -1,0 +1,20 @@
+.footer-main {
+  background-color: #1b1927;
+  color: $gray-tertiary;
+
+  .footer-support {
+    ul {
+      width: 200px;
+    }
+
+    a {
+      color: $gray-tertiary;
+      font-size: 14px;
+
+      i {
+        color: $brand-main;
+        font-size: 30px;
+      }
+    }
+  }
+}
