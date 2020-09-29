@@ -3,6 +3,19 @@
   color: $gray-tertiary;
 
   .footer-nav {
+    @include media-breakpoint-up('md') {
+      display: block;
+
+      ul {
+        display: inline-block;
+        margin-right: 60px;
+
+        li {
+          margin-bottom: 0;
+        }
+      }
+    }
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

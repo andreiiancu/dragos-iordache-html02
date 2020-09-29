@@ -1,4 +1,16 @@
 .home-newsletter {
+  @include media-breakpoint-up('md') {
+    padding: 0;
+    height: 200px;
+
+    & > form {
+      height: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   background-color: $gray-secondary;
   color: $white;
   text-align: center;
@@ -20,6 +32,11 @@
 
   input {
     &[type='email'] {
+      @include media-breakpoint-up('md') {
+        margin-bottom: 10px;
+        width: 50%;
+      }
+
       display: block;
       width: 75%;
       font-weight: 300;
