@@ -29,7 +29,7 @@
     }
 
     &:hover {
-      background-color: grey;
+      background-color: pink;
       border-radius: 25px;
     }
   }
@@ -50,6 +50,11 @@
 
 .social-icons {
   height: 50px;
+  text-align: left;
+  font: normal normal normal;
+  color: #000;
+  opacity: 1;
+  background: #fff 0% 0% no-repeat padding-box;
 
   h1,
   ul {
@@ -76,16 +81,6 @@
       width: 280;
       text-decoration: none;
     }
-  }
-}
-
-.social-icons,
-li {
-  @include media-breakpoint-up('xl') {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    margin-right: 12px;
   }
 }
 
@@ -129,9 +124,28 @@ li {
   }
 }
 
+.menu-bars {
+  background: #fff;
+  opacity: 1;
+
+  top: 94px;
+  left: 35px;
+
+  width: 1920px;
+  height: 52px;
+  display: block;
+  background-color: #2b2b2b 0% 0% no-repeat padding-box;
+  justify-content: space-around;
+}
+
 body {
   ul,
   li {
     list-style-type: none;
   }
+}
+
+.common-oferts {
+  display: block;
+  background-color: aqua;
 }
